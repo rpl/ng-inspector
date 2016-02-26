@@ -3,11 +3,15 @@
   "name": "ng-inspector for AngularJS",
   "description": "Inspector pane for AngularJS apps",
   "version": "0.5.11",
+  "applications": {
+    "gecko": {
+      "id": "ng-inspector@webextension"
+    }
+  },
   "background": {
     "scripts": [
       "background.js"
-    ],
-    "persistent": false
+    ]
   },
   "permissions": [
     "tabs",

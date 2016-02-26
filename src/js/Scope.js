@@ -1,11 +1,10 @@
-var NGI = {
-	TreeView: require('./TreeView'),
-	ModelMixin: require('./ModelMixin'),
-	InspectorAgent: require('./InspectorAgent'),
-	Model: require('./Model')
-};
-
 function Scope(app, ngScope, isIsolate) {
+  var NGI = {
+    TreeView: require('./TreeView'),
+    ModelMixin: require('./ModelMixin'),
+    InspectorAgent: require('./InspectorAgent'),
+    Model: require('./Model')
+  };
 
 	var angular = window.angular;
 
